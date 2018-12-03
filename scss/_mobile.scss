@@ -6,7 +6,7 @@
 @include mediaLg {
 }
 
-// WTablets & Notebooks
+// Tablets & Notebooks
 @include mediaMd {
   main {
     align-items: center;
@@ -44,6 +44,19 @@
       width: 150px;
       height: 150px;
     }
+  }
+
+  // Reorganize Grid Template
+  // Vertically For Md Screens
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
   }
 }
 
