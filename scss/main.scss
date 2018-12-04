@@ -1,4 +1,8 @@
+// Import Partial SASS files:
+
+// Config contains vars, mixins, media queries & functions
 @import "config";
+// Menu contains SASS for hamburger & menu overlays
 @import "menu";
 
 * {
@@ -77,7 +81,7 @@ main {
   }
 }
 
-//  About Page Grid
+// About Page Grid Template
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -117,7 +121,7 @@ main {
   }
 }
 
-// Work & Projects
+// Work & Projects Grid Template
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -136,7 +140,7 @@ main {
 }
 
 // Contact Me
-// Change to grid-template?
+// TODO: CHANGE TO GRID TEMPLATE
 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -153,7 +157,7 @@ main {
     @include easeOut;
 
     &:hover {
-      // CONSIDER OTHER EFFECTS
+      // TODO: CONSIDER OTHER EFFECTS
       padding: 0.5rem 1.5rem;
       background: $secondary-color;
       color: set-text-color($secondary-color);
@@ -178,7 +182,7 @@ main {
   }
 }
 
-// Extend Above Styles to btn-light/dark
+// Extend Button Styles
 .btn-dark {
   @extend .btn;
   background: darken($primary-color, 50);

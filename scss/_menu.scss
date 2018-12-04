@@ -1,4 +1,4 @@
-// Menu Button
+// Menu Button (hamburger)
 
 .menu-btn {
   position: absolute;
@@ -98,6 +98,7 @@
     }
   }
 
+  // Menu Links (Home, About, Contact...)
   .nav-item {
     transform: translate3d(600px, 0, 0);
     @include easeOut;
