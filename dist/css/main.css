@@ -283,5 +283,8 @@ main {
   main#home h1 {
     margin-top: 10vh;
     font-size: 5rem; }
+  main#contact h1 {
+    margin-top: 10vh;
+    font-size: 5rem; }
   .projects {
     grid-template-columns: 1fr; } }
