@@ -73,11 +73,13 @@
 // Mobile
 @include mediaSm {
   main#home h1 {
+    color: red;
     margin-top: 10vh;
     font-size: 5rem;
   }
 
   main#contact h1 {
+    color: red;
     margin-top: 10vh;
     font-size: 5rem;
   }
