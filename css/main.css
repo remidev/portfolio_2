@@ -282,12 +282,10 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    color: red;
     margin-top: 10vh;
-    font-size: 5rem; }
+    font-size: 3rem; }
   main#contact h1 {
-    color: red;
     margin-top: 10vh;
-    font-size: 5rem; }
+    font-size: 3rem; }
   .projects {
     grid-template-columns: 1fr; } }
