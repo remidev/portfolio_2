@@ -281,11 +281,17 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  main {
+    padding: 3rem; }
   main#home h1 {
     margin-top: 10vh;
     font-size: 3rem; }
   main#contact h1 {
     margin-top: 10vh;
     font-size: 3rem; }
+  main#contact .boxes > div {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem; }
   .projects {
     grid-template-columns: 1fr; } }
