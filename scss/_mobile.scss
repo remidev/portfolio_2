@@ -72,6 +72,10 @@
 
 // Mobile
 @include mediaSm {
+  main {
+    padding: 3rem;
+  }
+
   main#home h1 {
     margin-top: 10vh;
     font-size: 3rem;
@@ -80,6 +84,12 @@
   main#contact h1 {
     margin-top: 10vh;
     font-size: 3rem;
+  }
+
+  main#contact .boxes > div {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
   }
 
   .projects {
