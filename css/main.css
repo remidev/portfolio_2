@@ -286,6 +286,17 @@ main {
   main#home h1 {
     margin-top: 10vh;
     font-size: 3rem; }
+  .bio > p {
+    text-align: center; }
+  .job > h5 {
+    margin: 0.5rem;
+    font-size: 15px;
+    font-weight: 500; }
+  .job > h6 {
+    margin: 0.25rem;
+    font-weight: 500; }
+  .job > p {
+    text-align: left; }
   main#contact h1 {
     margin-top: 10vh;
     font-size: 3rem; }
